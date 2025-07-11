@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+
+<body>
+  <div class="start-screen">
+    <h2>Ready to jam?</h2>
+    <button onclick="startMusic()">Let’s Roll</button>
+  </div>
+  <div class=" intro-screen fade" style="display: none;">
+    <div class="intro-content">
+      <h2 class="beat-title" id="total"> <span class="letter">Use Keys </span> <span class="letter">W</span> <span class="letter">A</span> <span class="letter">S</SPAN> <span class="letter">D</SPAN> <span class="letter">J</SPAN>
+        <span class="letter">K</SPAN> <span class="letter">L</SPAN> <span class="letter">to play sounds on drums</SPAN> </h2>
+      <h2 class="h2withkey">press space bar to continue</h2>
+    </div>
+    <img class="intro" src="./image/intro image.png" alt="">
+
+  </div>
+
+
+  <div class="main" style="display: none;">
+    <h1 id="title">Drum 🥁 Kit</h1>
+
+    <div class="set">
+      <button class="w drum">w</button>
+      <button class="a drum">a</button>
+      <button class="s drum">s</button>
+      <button class="d drum">d</button>
+      <button class="j drum">j</button>
+      <button class="k drum">k</button>
+      <button class="l drum">l</button>
+    </div>
+  </div>
+
+
+</body>
+<script src="./drum.js"></script>
+
+</html>
